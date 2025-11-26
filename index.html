@@ -106,6 +106,81 @@
             <a href="#" aria-disabled="true">Source</a>
           </div>
         </article>
+        <article class="card">
+  <div class="card-header">
+    <div>
+      <div class="card-title">Formula 1 Podium Prediction Model</div>
+      <div class="card-meta">Elastic Net · Classification · Sports Analytics</div>
+    </div>
+    <div class="card-badge">ML</div>
+  </div>
+
+  <div class="card-body">
+    Built a machine learning model to predict which drivers will finish on the podium 
+    before the race begins, using over 5,000 race-driver observations from the 
+    Ergast F1 dataset (2012–2024).
+  </div>
+
+  <ul class="card-list">
+    <li>Engineered features from qualifying grid position, driver age, constructor, 
+    nationality, pit strategy (laps per pit), and circuit characteristics (lat, lng, altitude).</li>
+    <li>Developed an Elastic Net classification model that correctly identified 
+    at least one podium finisher 76.2% of the time.</li>
+    <li>Found that <strong>grid position</strong> is the single strongest predictor of podium outcomes, 
+    more impactful than nationality, constructor, or pit strategy 
+    (supported by coefficient plots on slides 11, 13, and 30).</li>
+    <li>Compared model performance to baseline strategies—predicting grid positions 1–3 
+    yields 100% “at least one podium” accuracy but fails to assign probabilities.</li>
+  </ul>
+
+  <div class="card-footer">
+    <div class="tags">
+      <span class="tag">Elastic Net</span>
+      <span class="tag">Classification</span>
+      <span class="tag">F1 Analytics</span>
+      <span class="tag">PCA</span>
+    </div>
+    <a href="#" class="card-link">View Presentation →</a>
+  </div>
+</article>
+<article class="card">
+  <div class="card-header">
+    <div>
+      <div class="card-title">Housing Price Prediction in Fortune 500 Cities</div>
+      <div class="card-meta">Regression · Regularization · Market Analytics</div>
+    </div>
+    <div class="card-badge">ML</div>
+  </div>
+
+  <div class="card-body">
+    Analyzed housing prices across 335 U.S. cities to understand whether the 
+    presence of Fortune 500 companies affects median home prices, using Zillow 
+    and FBI UCR datasets.
+  </div>
+
+  <ul class="card-list">
+    <li>Performed multiple linear regression with log transformations to correct 
+    skewness (see slide 7 histograms).</li>
+    <li>Controlled for population size and violent crime, testing both continuous 
+    and categorical Fortune 500 variables.</li>
+    <li>Found <strong>no statistically significant relationship</strong> between Fortune 500 
+    presence and housing prices (coefficient CI plot on slide 9).</li>
+    <li>Identified population and violent crime as the strongest drivers of 
+    median home prices, not corporate presence.</li>
+    <li>Recommended markets: Atlanta (affordable with growth potential) and 
+    San Francisco (high-value, high price).</li>
+  </ul>
+
+  <div class="card-footer">
+    <div class="tags">
+      <span class="tag">Regression</span>
+      <span class="tag">Feature Engineering</span>
+      <span class="tag">Real Estate Analytics</span>
+    </div>
+    <a href="#" class="card-link">View Presentation →</a>
+  </div>
+</article>
+
         <article class="project-card">
           <div class="project-meta">
             <p class="eyebrow">Experiences</p>
