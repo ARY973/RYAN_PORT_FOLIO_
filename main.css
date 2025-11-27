@@ -1,6 +1,44 @@
 /* ------------------------------------------------ */
 /*  RYAN PORTFOLIO – CLEAN DARK THEME (RESET)       */
 /* ------------------------------------------------ */
+/* ===== AURORA BACKGROUND THEME ===== */
+
+body {
+  background: radial-gradient(circle at 20% 20%, #0f172a, #020617 60%);
+  position: relative;
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+/* Aurora layer */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 10% 30%, rgba(110, 231, 183, 0.06), transparent 70%),
+              radial-gradient(circle at 80% 20%, rgba(94, 234, 212, 0.06), transparent 70%),
+              radial-gradient(circle at 50% 80%, rgba(147, 197, 253, 0.06), transparent 80%);
+  pointer-events: none;
+  z-index: -1;
+  filter: blur(40px);
+  transform: translateZ(0);
+}
+
+/* Smooth fade for all elements */
+* {
+  transition: all 0.25s ease;
+}
+
+/* Glow links & interactive elements */
+a:hover, .button:hover {
+  filter: drop-shadow(0 0 8px rgba(94, 234, 212, 0.4));
+}
+
+/* Section container improvements */
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
 /* Root variables */
 :root {
