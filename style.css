@@ -395,8 +395,11 @@ a:focus-visible {
 
 .stat-label {
   font-size: 0.95rem !important;
-  opacity: 0.85;
-
-  .hero{
-    padding-bottom: 2rem !important;
+  opacity: 0.85 !important;
 }
+
+/* Fix hero spacing */
+.hero {
+  padding-bottom: 2rem !important;
+}
+
