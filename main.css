@@ -337,6 +337,12 @@ a:hover {
 .hero-text h1 {
   margin-bottom: 0.6rem;
 }
+/* Align 'At a glance' under the main headline */
+.hero-card {
+  margin-left: 4rem !important;
+  max-width: 720px;
+}
+
 /* Shift At a Glance card left */
 .hero-card {
   margin-left: 2rem !important;
