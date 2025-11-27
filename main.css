@@ -312,3 +312,8 @@ a:hover {
   border-top: 1px solid var(--border);
   text-align: center;
 }
+
+.hero {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
