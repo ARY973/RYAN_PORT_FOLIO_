@@ -148,7 +148,7 @@ a:hover {
 /* Proper alignment for Download Resume button */
 .site-header .download-resume {
     margin-top: 6rem !important;   /* move downward */
-    margin-left: 0 !important;     /* align with hero left edge */
+    margin-left: 0rem !important;     /* align with hero left edge */
     display: flex;
     justify-content: flex-start;
 }
