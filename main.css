@@ -328,6 +328,7 @@ a:hover {
 .hero {
   padding-top: 4rem;
   padding-bottom: 3rem;
+  padding-left: 2rem !important;
 }
 .hero-text h1 {
   margin-bottom: 0.6rem;
