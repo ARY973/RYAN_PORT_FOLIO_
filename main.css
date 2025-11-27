@@ -140,6 +140,17 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.download-resume {
+  margin-top: 3rem !important; /* push downward to align with hero text */
+}
+
+
 
 .brand {
   display: grid;
