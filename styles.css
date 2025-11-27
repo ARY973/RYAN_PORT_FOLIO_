@@ -369,35 +369,34 @@ a:focus-visible {
     justify-content: space-between;
   }
 }
-/* --- HERO SECTION CLEANUP --- */
-.hero-text h1 {
-  margin-bottom: 0.6rem;
+/* --- FIX: At A Glance spacing + layout --- */
+.section-title {
+  margin-bottom: 1rem !important;
 }
 
-.hero-text p {
-  margin-bottom: 1.2rem;
-  max-width: 720px; /* cleaner line-length */
+.pill-list {
+  margin-bottom: 1.2rem !important;
 }
 
-.hero-buttons, .hero-cta, .cta-row {
-  margin-top: 0.8rem !important;
+.pill-list li {
+  padding: 0.45rem 0.9rem !important;
+  opacity: 0.9;
 }
 
-/* --- AT A GLANCE SECTION --- */
-#at-a-glance, .glance-section, #glance {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+.stats {
+  margin-top: 1rem !important;
+  gap: 2rem !important;
 }
 
-/* tag list */
-.tag-list li {
-  margin-top: 0.4rem;
-  margin-bottom: 1.2rem;
+.stat-number {
+  font-size: 2.3rem !important;
+  font-weight: 700 !important;
 }
 
-tag.flag {
-  padding: 0.35rem 0.75rem;
-  border-radius: 0.6rem;
+.stat-label {
+  font-size: 0.95rem !important;
   opacity: 0.85;
-}
 
+  .hero{
+    padding-bottom: 2rem !important;
+}
