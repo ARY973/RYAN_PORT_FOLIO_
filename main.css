@@ -337,6 +337,16 @@ a:hover {
 .hero-text h1 {
   margin-bottom: 0.6rem;
 }
+/* Shift At a Glance card left */
+.hero-card {
+  margin-left: 2rem !important;
+}
+
+/* Fix stats alignment inside card */
+.hero-card .stats-grid {
+  margin-left: 0.3rem !important;
+}
+
 .lede {
   margin-bottom: 1.4rem;
   max-width: 720px;
