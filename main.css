@@ -244,3 +244,71 @@ a:hover {
     gap: 1rem;
   }
 }
+
+/* ---------------------- */
+/* LAYOUT & RHYTHM FIXES  */
+/* ---------------------- */
+
+/* Hero adjustments */
+.hero {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.hero-text h1 {
+  margin-bottom: 0.6rem;
+}
+.lede {
+  margin-bottom: 1.4rem;
+  max-width: 720px;
+}
+
+/* Pill badges */
+.pill-list li {
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  font-size: 0.9rem;
+  transition: background 0.2s ease;
+}
+.pill-list li:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+/* Stats styling */
+.stats {
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+.stat-number {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.stat-label {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+/* Section padding */
+.section {
+  padding: 3.5rem 0;
+}
+
+/* Project card hover effect */
+.project-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* Contact / Footer styling */
+.contact-card {
+  padding: 1.5rem;
+}
+.site-footer {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
