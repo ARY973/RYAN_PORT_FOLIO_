@@ -152,17 +152,6 @@ a:hover {
     display: flex;
     justify-content: flex-start;
 }
-
-
-
-
-
-
-
-
-
-
-
 .brand {
   display: grid;
   grid-template-columns: auto 1fr;
