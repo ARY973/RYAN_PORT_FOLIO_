@@ -136,20 +136,9 @@ a:hover {
 }
 /* Align Download Resume with hero text */
 .download-wrapper {
-    margin-left: 6rem;
-    margin-top: 7rem;   /* was 5rem — this moves it down perfectly */
-    position: relative;
-    z-index: 10;
+    margin-bottom: 2rem;
 }
 
-
-
-}
-
-.download-resume {
-    display: inline-flex;
-    justify-content: flex-start;
-}
 
 .header-content {
   display: flex;
