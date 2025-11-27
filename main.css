@@ -189,6 +189,11 @@ a:hover {
 .hero {
     padding: 5rem 2rem;
 }
+/* Force hero section to align left with header padding */
+.hero {
+    padding-left: 6rem !important;
+    box-sizing: border-box;
+}
 
 
 .hero-grid {
