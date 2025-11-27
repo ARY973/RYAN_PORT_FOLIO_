@@ -134,6 +134,16 @@ a:hover {
   border-bottom: 1px solid var(--border);
   z-index: 1000;
 }
+/* Align Download Resume with hero text */
+.download-wrapper {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.download-resume {
+    display: inline-flex;
+    justify-content: flex-start;
+}
 
 .header-content {
   display: flex;
@@ -145,12 +155,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
-/* Proper alignment for Download Resume button */
-.site-header .download-resume {
-    margin-top: 6rem !important;   /* move downward */
-    margin-left: 0rem !important;     /* align with hero left edge */
-    display: flex;
-    justify-content: flex-start;
+
 }
 
 .brand {
