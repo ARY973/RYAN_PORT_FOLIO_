@@ -21,19 +21,23 @@
 
   --font: 'Inter', system-ui, -apple-system, sans-serif;
   body {
-  margin: 0;
-  font-family: var(--font);
-  color: var(--text);
+    margin: 0;
+    font-family: var(--font);
+    color: var(--text);
 
-  background:
-    radial-gradient(circle at 20% 30%, rgba(124, 90, 240, 0.14), transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(44, 229, 159, 0.15), transparent 50%),
-    radial-gradient(circle at 60% 80%, rgba(124, 90, 240, 0.08), transparent 60%),
-    var(--bg);
+    /* 🌅 SUN → 🌙 MOON SCROLL GRADIENT */
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 204, 128, 0.10) 0%,     /* soft warm gold sunrise glow */
+        rgba(28, 32, 61, 0.30) 40%,       /* deep mid-section tone */
+        rgba(120, 150, 255, 0.15) 100%    /* cool moonlight blue glow */
+    );
 
-  line-height: 1.7;
-  min-height: 100vh;
+    backdrop-filter: blur(1px);
+    min-height: 100vh;
+    line-height: 1.7;
 }
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -428,3 +432,40 @@ a:hover {
   background: rgba(255, 255, 255, 0.05) !important;
 }
 
+/* =============================================== */
+/*      🌅 SUN & 🌙 MOON ATMOSPHERE LAYERS        */
+/* =============================================== */
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* SUN GLOW at top */
+body::before {
+    top: 0;
+    height: 40vh;
+    background: radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 200, 110, 0.25),
+        transparent 70%
+    );
+    filter: blur(60px);
+}
+
+/* MOON GLOW at bottom */
+body::after {
+    bottom: 0;
+    height: 50vh;
+    background: radial-gradient(
+        circle at 50% 100%,
+        rgba(150, 180, 255, 0.20),
+        transparent 75%
+    );
+    filter: blur(80px);
+}
