@@ -469,3 +469,10 @@ body::after {
     );
     filter: blur(80px);
 }
+/* Fix text being washed out under glow */
+.hero,
+.hero * {
+  position: relative;
+  z-index: 5;
+}
+
