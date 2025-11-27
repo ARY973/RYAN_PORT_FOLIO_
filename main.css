@@ -145,12 +145,15 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
-.site-header .download-resume {
-    margin-top: 6rem !important;   /* moves it down */
-    margin-left: 0rem !important;  /* aligns with left of hero */
+/* Proper alignment for download resume button */
+.header-content-right .download-resume {
+    margin-top: 6rem !important;     /* moves down */
+    margin-left: 0 !important;       /* aligns left with hero */
     display: flex;
     justify-content: flex-start;
 }
+
+
 
 
 
