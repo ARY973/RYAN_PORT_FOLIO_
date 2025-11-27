@@ -1,6 +1,3 @@
-/* ------------------------------------------------ */
-/*  RYAN PORTFOLIO – CLEAN DARK THEME (RESET)       */
-/* ------------------------------------------------ */
 /* ===== AURORA BACKGROUND THEME ===== */
 
 body {
@@ -39,6 +36,9 @@ a:hover, .button:hover {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+/* ------------------------------------------------ */
+/*  RYAN PORTFOLIO – CLEAN DARK THEME (RESET)       */
+/* ------------------------------------------------ */
 
 /* Root variables */
 :root {
