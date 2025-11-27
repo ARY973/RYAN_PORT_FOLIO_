@@ -137,7 +137,11 @@ a:hover {
 /* Align Download Resume with hero text */
 .download-wrapper {
     margin-left: 6rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
+    position: relative;
+    z-index: 10;
+
+
 }
 
 .download-resume {
@@ -187,13 +191,10 @@ a:hover {
 /* ---------------------- */
 
 .hero {
-    padding: 5rem 2rem;
-}
-/* Force hero section to align left with header padding */
-.hero {
-    padding-left: 6rem !important;
+    padding: 8rem 2rem 5rem 6rem !important; 
     box-sizing: border-box;
 }
+
 
 
 .hero-grid {
