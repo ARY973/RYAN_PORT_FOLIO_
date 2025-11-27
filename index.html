@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ryan | Portfolio</title>
-  <meta name="description" content="Ryan Mudhole – MS-IS student at Utah State University specializing in machine learning, analytics, FinTech, and data-driven problem solving. President of the USU AI Club. Explore ML projects, leadership, and global experiences.">
-<meta property="og:description" content="Explore Ryan Mudhole’s machine learning projects, analytics work, FinTech interests, and leadership as President of the USU AI Club. MS-IS student at Utah State University.">
+  <meta name="description" content="Portfolio for Ryan, a Utah State University master's student sharing machine learning, fintech, and world experiences.">
+  <meta property="og:title" content="Ryan | Portfolio">
+  <meta property="og:description" content="Discover Ryan's machine learning projects, future fintech work, and global experiences as a Utah State master's student.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,31 +33,20 @@
       </nav>
     </div>
   </header>
-  <a class="button primary" href="YOUR_RESUME_LINK.pdf" target="_blank">
-  Download Resume
-</a>
-
 
   <main id="main">
     <section class="hero">
-      <div class="hero-text">
-  <p class="eyebrow">Hi, I’m Ryan</p>
-  <h1>Machine learning, analytics, and fintech — built with intention.</h1>
-
-  <p class="lede">
-    I’m a Master’s student in Management Information Systems at Utah State University and 
-    President of the USU AI Club. I build machine learning and analytics solutions that 
-    help people make better decisions — whether that’s predicting F1 podium outcomes, 
-    understanding housing markets, or designing data-driven tools for business.
-  </p>
-
-  <div class="hero-cta">
-    <a class="button" href="#projects">View projects</a>
-    <a class="button ghost" href="#contact">Get in touch</a>
-  </div>
-</div>
-
-         <div class="hero-card" aria-label="At a glance">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hi, I’m Ryan</p>
+          <h1>Exploring machine learning, fintech, and the stories I collect along the way.</h1>
+          <p class="lede">I’m a master’s student at Utah State University, building on a bachelor’s in Information Technology to create ML-driven tools and future fintech experiments. I love turning ideas into approachable products and sharing the lessons from my travels.</p>
+          <div class="cta-row">
+            <a class="button" href="#projects">View projects</a>
+            <a class="button ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="At a glance">
           <h2>At a glance</h2>
           <ul class="pill-list">
             <li>Machine learning focused</li>
@@ -64,18 +54,18 @@
             <li>Fast learner</li>
             <li>World experiences</li>
           </ul>
-          <div class="stats-grid">
-  <div class="stat">
-    <div class="stat-number">5+</div>
-    <p class="stat-label">ML explorations</p>
-  </div>
-
-  <div class="stat">
-    <div class="stat-number">3</div>
-    <p class="stat-label">Countries explored</p>
-  </div>
-</div>
-
+          <div class="stats">
+            <div>
+              <p class="stat-number">5+</p>
+              <p class="stat-label">ML explorations</p>
+            </div>
+            <div>
+              <p class="stat-number">3</p>
+              <p class="stat-label">Continents studied</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="section">
@@ -98,8 +88,8 @@
             <span>Python</span><span>TensorFlow</span><span>scikit-learn</span>
           </div>
           <div class="project-links">
-            <a href="#" aria-disabled="true">Live demo</a>
-            <a href="#" aria-disabled="true">Source</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Live demo coming soon">Live demo</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Source coming soon">Source</a>
           </div>
         </article>
         <article class="project-card">
@@ -112,91 +102,10 @@
             <span>TypeScript</span><span>Next.js</span><span>APIs</span>
           </div>
           <div class="project-links">
-            <a href="#" aria-disabled="true">Docs</a>
-            <a href="#" aria-disabled="true">Source</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Docs coming soon">Docs</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Source coming soon">Source</a>
           </div>
         </article>
-        <article class="card">
-  <div class="card-header">
-    <div>
-      <div class="card-title">Formula 1 Podium Prediction Model</div>
-      <div class="card-meta">Elastic Net · Classification · Sports Analytics</div>
-    </div>
-    <div class="card-badge">ML</div>
-  </div>
-
-  <div class="card-body">
-    Built a machine learning model to predict which drivers will finish on the podium 
-    before the race begins, using over 5,000 race-driver observations from the 
-    Ergast F1 dataset (2012–2024).
-  </div>
-
-  <ul class="card-list">
-    <li>Engineered features from qualifying grid position, driver age, constructor, 
-    nationality, pit strategy (laps per pit), and circuit characteristics (lat, lng, altitude).</li>
-    <li>Developed an Elastic Net classification model that correctly identified 
-    at least one podium finisher 76.2% of the time.</li>
-    <li>Found that <strong>grid position</strong> is the single strongest predictor of podium outcomes, 
-    more impactful than nationality, constructor, or pit strategy 
-    (supported by coefficient plots on slides 11, 13, and 30).</li>
-    <li>Compared model performance to baseline strategies—predicting grid positions 1–3 
-    yields 100% “at least one podium” accuracy but fails to assign probabilities.</li>
-  </ul>
-
-  <div class="card-footer">
-    <div class="tags">
-      <span class="tag">Elastic Net</span>
-      <span class="tag">Classification</span>
-      <span class="tag">F1 Analytics</span>
-      <span class="tag">PCA</span>
-    </div>
-    <a href="Formula 1 Presentation.pdf" class="card-link" target="_blank">
-  View Presentation →
-</a>
-
- </div>
-</article>
-<article class="card">
-  <div class="card-header">
-    <div>
-      <div class="card-title">Housing Price Prediction in Fortune 500 Cities</div>
-      <div class="card-meta">Regression · Regularization · Market Analytics</div>
-    </div>
-    <div class="card-badge">ML</div>
-  </div>
-
-  <div class="card-body">
-    Analyzed housing prices across 335 U.S. cities to understand whether the 
-    presence of Fortune 500 companies affects median home prices, using Zillow 
-    and FBI UCR datasets.
-  </div>
-
-  <ul class="card-list">
-    <li>Performed multiple linear regression with log transformations to correct 
-    skewness (see slide 7 histograms).</li>
-    <li>Controlled for population size and violent crime, testing both continuous 
-    and categorical Fortune 500 variables.</li>
-    <li>Found <strong>no statistically significant relationship</strong> between Fortune 500 
-    presence and housing prices (coefficient CI plot on slide 9).</li>
-    <li>Identified population and violent crime as the strongest drivers of 
-    median home prices, not corporate presence.</li>
-    <li>Recommended markets: Atlanta (affordable with growth potential) and 
-    San Francisco (high-value, high price).</li>
-  </ul>
-
-  <div class="card-footer">
-    <div class="tags">
-      <span class="tag">Regression</span>
-      <span class="tag">Feature Engineering</span>
-      <span class="tag">Real Estate Analytics</span>
-    </div>
-    <a href="housing-fortune500-analysis.pdf" class="card-link" target="_blank">
-  View Presentation →
-</a>
-
-</div>
-</article>
-
         <article class="project-card">
           <div class="project-meta">
             <p class="eyebrow">Experiences</p>
@@ -207,8 +116,8 @@
             <span>Writing</span><span>Photography</span><span>Maps</span>
           </div>
           <div class="project-links">
-            <a href="#" aria-disabled="true">Preview</a>
-            <a href="#" aria-disabled="true">Source</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Preview coming soon">Preview</a>
+            <a href="#" aria-disabled="true" tabindex="-1" aria-label="Source coming soon">Source</a>
           </div>
         </article>
       </div>
@@ -218,98 +127,38 @@
       <div class="container about-grid">
         <div>
           <p class="eyebrow">About</p>
-          <h2 class="section-title">About Me</h2>
-          <section class="section mission">
-  <h2 class="section-title">My Mission</h2>
-  <p class="about-text">
-    <p class="about-text">
-  What sets me apart is my ability to bridge both sides — deep technical skill 
-  (Python, ML, modeling, analytics) and strong communication and leadership. 
-  As President of the USU AI Club, I create learning experiences that make AI 
-  accessible, practical, and exciting for students across campus.
-</p>
-
-    My mission is to use machine learning, analytics, and leadership to create meaningful 
-    impact — helping organizations understand their data, build better decisions, and 
-    use technology responsibly and effectively.
-  </p>
-</section>
-<section class="section future-goals">
-  <h2 class="section-title">Where I’m Heading</h2>
-  <p class="about-text">
-    I’m building a future at the intersection of machine learning, FinTech, and 
-    data-driven strategy. My goal is to develop intelligent systems that solve 
-    real-world business problems — from predictive modeling to financial forecasting 
-    and automated insights.
-  </p>
-</section>
-
-
-<p class="about-text">
-  I'm Ryan Mudhole, a Master’s student in Management Information Systems at Utah State University.
-  My work centers around machine learning, analytics, and data-driven decision making—turning messy,
-  real-world information into insights that guide business, technology, and strategy.
-</p>
-
-<p class="about-text">
-  I specialize in Python, scikit-learn, SQL, regression modeling, and predictive analytics. 
-  My recent projects include an F1 podium prediction model using Elastic Net classification and a 
-  housing price analytics project across 335 U.S. cities using Fortune 500 and FBI crime datasets.
-</p>
-
-<p class="about-text">
-  Outside of coursework, I lead the USU AI Club as President, creating hands-on learning experiences,
-  workshops, and collaborations that bring students together to explore AI, ML, and automation. 
-  I’m passionate about simplifying complex concepts, sharing knowledge, and building communities 
-  where people can grow together.
-</p>
-
-<p class="about-text">
-  I’m also part of the Stephen R. Covey Leadership Center’s Global Learning Experience program 
-  (Washington D.C. completed; Europe 2026 upcoming), where I connect leadership development with 
-  global perspectives, culture, and technology.
-</p>
+          <h2>Who I am</h2>
+          <p class="section-lede">I’m pursuing a master’s at Utah State University after earning my bachelor’s in Information Technology. My work blends machine learning, fintech curiosity, and the diverse perspectives gained from exploring the world.</p>
+          <p>I value collaboration, clarity, and writing maintainable code. My toolkit is centered around modern web tech, data science practices, and human-centered thinking—semantic HTML, accessible components, and thoughtful performance.</p>
         </div>
         <div class="info-card" aria-label="Skills and tools">
-          <section id="coursework" class="section coursework">
-  <h2 class="section-title">Coursework</h2>
-
-  <ul class="course-list clean-list">
-    <li>Advanced Python</li>
-    <li>Advanced Machine Learning</li>
-    <li>Computational Methods for FinTech</li>
-    <li>Deep Forecasting</li>
-    <li>Predictive Methods for FinTech</li>
-    <li>Data Wrangling</li>
-    <li>Data Analytics</li>
-    <li>Introduction to Machine Learning</li>
-  </ul>
-</section>
+          <h3>Skills & tools</h3>
+          <ul class="pill-list compact">
+            <li>HTML & CSS</li>
+            <li>JavaScript/TypeScript</li>
+            <li>React</li>
+            <li>Accessibility</li>
+            <li>Python</li>
+            <li>TensorFlow</li>
+            <li>Fintech APIs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
     <section id="contact" class="section">
       <div class="container contact-card">
         <div>
           <p class="eyebrow">Contact</p>
           <h2>Let’s collaborate</h2>
-          <p class="section-lede">
-  I’m actively seeking Summer 2026 internships in data analytics, machine learning, and FinTech. 
-  Feel free to reach out — I’d love to connect.
-</p>
-
+          <p class="section-lede">Interested in working together or want feedback on an idea? I’d love to hear from you.</p>
+        </div>
         <div class="contact-actions">
-          <a class="button" 
-   href="mailto:aryan.mudhole11@gmail.com?subject=Inquiry%20from%20Portfolio%20Website">
-   Email Ryan
-</a>
-
+          <a class="button" href="mailto:hello@example.com">Email me</a>
           <div class="social-links" aria-label="Social links">
-            <div class="social-links" aria-label="Social Links">
-  <a href="https://github.com/ARY973" target="_blank" rel="noreferrer">GitHub</a>
-  <a href="https://www.linkedin.com/in/ryan-mudhole/" target="_blank" rel="noreferrer">LinkedIn</a>
-</div>
-
-
-
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.twitter.com" target="_blank" rel="noreferrer">Twitter</a>
           </div>
         </div>
       </div>
@@ -330,4 +179,3 @@
   </script>
 </body>
 </html>
-
