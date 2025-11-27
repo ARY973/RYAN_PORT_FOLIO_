@@ -369,3 +369,35 @@ a:focus-visible {
     justify-content: space-between;
   }
 }
+/* --- HERO SECTION CLEANUP --- */
+.hero-text h1 {
+  margin-bottom: 0.6rem;
+}
+
+.hero-text p {
+  margin-bottom: 1.2rem;
+  max-width: 720px; /* cleaner line-length */
+}
+
+.hero-buttons, .hero-cta, .cta-row {
+  margin-top: 0.8rem !important;
+}
+
+/* --- AT A GLANCE SECTION --- */
+#at-a-glance, .glance-section, #glance {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+
+/* tag list */
+.tag-list li {
+  margin-top: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+tag.flag {
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.6rem;
+  opacity: 0.85;
+}
+
