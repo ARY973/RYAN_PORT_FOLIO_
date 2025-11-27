@@ -25,13 +25,15 @@
     font-family: var(--font);
     color: var(--text);
 
-    /* 🌅 SUN → 🌙 MOON SCROLL GRADIENT */
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 204, 128, 0.10) 0%,     /* soft warm gold sunrise glow */
-        rgba(28, 32, 61, 0.30) 40%,       /* deep mid-section tone */
-        rgba(120, 150, 255, 0.15) 100%    /* cool moonlight blue glow */
-    );
+   /* Soft sun → moon gradient */
+background: linear-gradient(
+    to bottom,
+    rgba(255, 204, 120, 0.05) 0%,   /* subtle sunrise */
+    rgba(28, 32, 61, 0.15) 40%,     /* subtle deep blue */
+    rgba(102, 158, 255, 0.08) 100%  /* soft moon glow */
+);
+
+
 
     backdrop-filter: blur(1px);
     min-height: 100vh;
@@ -436,14 +438,14 @@ a:hover {
 /*      🌅 SUN & 🌙 MOON ATMOSPHERE LAYERS        */
 /* =============================================== */
 
-body::before,
-body::after {
-    content: "";
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    pointer-events: none;
+body::before {
+    height: 35vh;
+    background: radial-gradient(
+        circle at 50% 0%,
+        rgba(255, 200, 100, 0.10),
+        transparent 70%
+    );
+    filter: blur(40px);
 }
 
 /* SUN GLOW at top */
@@ -460,15 +462,15 @@ body::before {
 
 /* MOON GLOW at bottom */
 body::after {
-    bottom: 0;
-    height: 50vh;
+    height: 45vh;
     background: radial-gradient(
         circle at 50% 100%,
-        rgba(150, 180, 255, 0.20),
-        transparent 75%
+        rgba(120, 150, 255, 0.10),
+        transparent 70%
     );
-    filter: blur(80px);
+    filter: blur(50px);
 }
+
 /* Fix text being washed out under glow */
 .hero,
 .hero * {
