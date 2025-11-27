@@ -17,6 +17,7 @@ A single-page portfolio for Ryan, a Utah State University master’s student, hi
 - Update the hero text, project cards, and contact links in `index.html`.
 - Adjust colors, spacing, or fonts in `styles.css` (root CSS variables at the top).
 - Replace placeholder project links (`aria-disabled="true"` with `tabindex="-1"`) once you have live demos and source repos available.
+- Replace placeholder project links (`aria-disabled="true"`) with your live demos and source repos.
 
 ## Accessibility & meta
 - Semantic sections, skip link, and focus styles are included.
