@@ -292,20 +292,16 @@ a:hover {
   margin-top: 3.2rem !important;
 }
 /* DC Photo Gallery */
-.photo-grid {
-  margin-top: 2rem;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+.gallery-grid img {
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.35);
+  transition: transform 0.25s ease;
 }
 
-.photo-grid img {
-  width: 100%;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
-  object-fit: cover;
+.gallery-grid img:hover {
+  transform: scale(1.03);
 }
+
 
 }
 
