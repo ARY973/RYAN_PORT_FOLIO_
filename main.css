@@ -127,11 +127,9 @@ a:hover {
 }
 
 .lede {
-  color: rgba(226, 232, 240, 0.95) !important;   /* almost full white */
-  font-size: 1.15rem;
-  font-weight: 400;
-  line-height: 1.6;
-  max-width: 720px;
+  color: #e5eaf3 !important;    /* stronger white */
+  text-shadow: 0 1px 8px rgba(0,0,0,0.35);  /* subtle shadow for depth */
+  font-size: 1.18rem;
 }
 
 /* ---------------------- */
