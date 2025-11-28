@@ -110,6 +110,13 @@ a:hover {
 /* ---------------------- */
 /* Hero Section */
 /* ---------------------- */
+.hero-actions {
+  margin-top: 2.2rem !important;   /* moves buttons down */
+}
+
+.hero-card {
+  margin-top: 2.6rem !important;   /* moves At a Glance area down */
+}
 
 .hero {
   padding: 6rem 2rem 4rem 3rem; 
