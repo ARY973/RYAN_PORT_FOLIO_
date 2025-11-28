@@ -106,11 +106,21 @@ background: linear-gradient(
 }
 
 body {
-  font-family: var(--font);
-  color: var(--text);
-  background: var(--bg);
-  line-height: 1.6;
+    margin: 0;
+    font-family: var(--font);
+    color: var(--text);
+
+    /* ORIGINAL AURORA GRADIENT */
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgba(35, 82, 160, 0.35),
+        rgba(16, 39, 68, 0.95)
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
+
 
 /* Global links */
 a {
@@ -432,49 +442,5 @@ a:hover {
 
 .hero {
   background: rgba(255, 255, 255, 0.05) !important;
-}
-
-/* =============================================== */
-/*      🌅 SUN & 🌙 MOON ATMOSPHERE LAYERS        */
-/* =============================================== */
-
-body::before {
-    height: 35vh;
-    background: radial-gradient(
-        circle at 50% 0%,
-        rgba(255, 200, 100, 0.10),
-        transparent 70%
-    );
-    filter: blur(40px);
-}
-
-/* SUN GLOW at top */
-body::before {
-    top: 0;
-    height: 40vh;
-    background: radial-gradient(
-        circle at 50% 0%,
-        rgba(255, 200, 110, 0.25),
-        transparent 70%
-    );
-    filter: blur(60px);
-}
-
-/* MOON GLOW at bottom */
-body::after {
-    height: 45vh;
-    background: radial-gradient(
-        circle at 50% 100%,
-        rgba(120, 150, 255, 0.10),
-        transparent 70%
-    );
-    filter: blur(50px);
-}
-
-/* Fix text being washed out under glow */
-.hero,
-.hero * {
-  position: relative;
-  z-index: 5;
 }
 
