@@ -281,3 +281,14 @@ a:hover {
     padding-left: 1.5rem;
   }
 }
+
+/* FORCE shift hero CTA buttons down */
+.hero .hero-cta {
+  margin-top: 2.8rem !important;
+}
+
+/* FORCE shift At a glance section down */
+.hero .hero-card {
+  margin-top: 3.2rem !important;
+}
+
