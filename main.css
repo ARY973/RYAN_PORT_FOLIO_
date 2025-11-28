@@ -291,32 +291,21 @@ a:hover {
 .hero .hero-card {
   margin-top: 3.2rem !important;
 }
-/* ------------------------------------------------ */
-/* Leadership Photo Grid */
-/* ------------------------------------------------ */
-
+/* DC Photo Gallery */
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.5rem;
   margin-top: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .photo-grid img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
-  border-radius: var(--radius);
+  border-radius: 12px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
-
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  object-fit: cover;
 }
 
-/* Slight lift on hover */
-.photo-grid img:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(0,0,0,0.5);
 }
 
