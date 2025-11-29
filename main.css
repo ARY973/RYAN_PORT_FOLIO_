@@ -287,32 +287,22 @@ a:hover {
   .hero {
     padding-left: 1.5rem;
   }
-/* ============================ */
-/* FINAL SPACING FIX FOR RYAN   */
-/* ============================ */
-
-/* Correct DC gallery spacing */
-#dc-gallery {
-  padding-bottom: 0.5rem !important;
+/* FULL RESET — Force DC Gallery back to grid */
+#dc-gallery .gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)) !important;
+  gap: 1.2rem !important;
+  width: 100% !important;
 }
 
-/* Heading spacing */
-#projects.section.projects-section {
-  margin-top: 1.6rem !important;
-  padding-top: 0 !important;
-}
- 
-/* FIX — Reduce DC gallery photo size */
 #dc-gallery .gallery-grid img {
-  height: 220px !important;   /* was 260px */
-  max-height: 220px !important;
-}
-
-/* FIX — Prevent DC gallery photos from getting bigger */
-#dc-gallery .gallery-grid img {
-  height: 200px !important;   /* smaller fixed height */
-  max-height: 200px !important;
+  width: 100% !important;
+  height: 220px !important;   /* adjust later if needed */
   object-fit: cover !important;
+  border-radius: 12px !important;
+  display: block !important;
+}
+
 }
 
 
