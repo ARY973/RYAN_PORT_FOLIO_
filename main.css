@@ -286,7 +286,10 @@ a:hover {
 
   .hero {
     padding-left: 1.5rem;
-  }
+  } /* <-- this closes the media query */
+
+
+
 /* FULL RESET — Force DC Gallery back to grid */
 #dc-gallery .gallery-grid {
   display: grid !important;
@@ -297,13 +300,13 @@ a:hover {
 
 #dc-gallery .gallery-grid img {
   width: 100% !important;
-  height: 220px !important;   /* adjust later if needed */
+  height: 220px !important;
   object-fit: cover !important;
   border-radius: 12px !important;
   display: block !important;
 }
 
-}
+
 
 
 
