@@ -319,15 +319,22 @@ a:hover {
   transform: scale(1.03);
 }
 
-/* FIX SPACING ABOVE 'Selected work' */
-.projects-section .section-header {
-    margin-top: -2rem !important;
+/* STRONG FIX — Pull entire Projects section upward */
+#projects {
+    padding-top: 1rem !important;
+    margin-top: -3rem !important;
 }
 
-/* FIX SPACING ABOVE THE TWO SMALL CARDS */
-.projects-section .project-grid {
-    margin-top: -1.5rem !important;
+/* Pull the “Selected work” header upward */
+.projects-section .section-header {
+    margin-top: -1.2rem !important;
 }
+
+/* Align ML + FinTech cards upward */
+.projects-section .project-grid {
+    margin-top: -0.8rem !important;
+}
+
 
 
 
