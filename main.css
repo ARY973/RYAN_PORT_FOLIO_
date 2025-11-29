@@ -287,85 +287,28 @@ a:hover {
   .hero {
     padding-left: 1.5rem;
   }
-}
+/* ============================ */
+/* FINAL SPACING FIX FOR RYAN   */
+/* ============================ */
 
-/* FORCE shift hero CTA buttons down */
-.hero .hero-cta {
-  margin-top: 2.8rem !important;
-}
-
-/* FORCE shift At a glance section down */
-.hero .hero-card {
-  margin-top: 3.2rem !important;
-}
-/* DC Photo Gallery */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1.2rem;
-  margin-top: 1.5rem;
-}
-
-.gallery-grid img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.30);
-  transition: transform 0.25s ease;
-}
-
-.gallery-grid img:hover {
-  transform: scale(1.03);
-}
-
-/* FORCE projects area upward */
-#projects {
-  margin-top: -3rem !important;
-  padding-top: 0 !important;
-}
-
-/* Move the header upward */
-#projects .section-header {
-  margin-top: -1.5rem !important;
-}
-
-/* Move ML + FinTech cards upward */
-#projects .project-grid {
-  margin-top: -1.2rem !important;
-}
-/* Fix DC Gallery spacing */
+/* Correct DC gallery spacing */
 #dc-gallery {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
-/* Fix the gap above the Projects section */
-#projects {
-  margin-top: -1rem !important;
+/* Lift Projects section (no overlap) */
+#projects.section.projects-section {
+  margin-top: -1.6rem !important;
   padding-top: 0 !important;
 }
 
-/* Tighten project heading spacing */
-#projects .section-header {
-  margin-bottom: 1rem !important;
-}
-/* FIX: Remove extra space below DC gallery */
-#dc-gallery {
-  padding-bottom: 1rem !important;
-}
-
-/* FIX: Pull the entire Projects section upward */
-#projects {
-  margin-top: -1.4rem !important;
-  padding-top: 0 !important;
-}
-
-/* Tighten heading spacing */
-#projects .section-header {
+/* Heading spacing */
+#projects.section.projects-section .section-header {
   margin-top: 0 !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.2rem !important;
 }
+
+
 
 
 
