@@ -302,6 +302,11 @@ a:hover {
   padding-top: 0 !important;
 }
  
+/* FIX — Reduce DC gallery photo size */
+#dc-gallery .gallery-grid img {
+  height: 220px !important;   /* was 260px */
+  max-height: 220px !important;
+}
 
 
 
