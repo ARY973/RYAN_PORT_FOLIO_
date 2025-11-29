@@ -296,16 +296,10 @@ a:hover {
   padding-bottom: 0.5rem !important;
 }
 
-/* Lift Projects section (no overlap) */
-#projects.section.projects-section {
-  margin-top: -1.6rem !important;
-  padding-top: 0 !important;
-}
-
 /* Heading spacing */
 #projects.section.projects-section {
-  margin-top: 1.2rem !important;
-  margin-bottom: 0rem !important;
+  margin-top: 1.6rem !important;
+  padding-top: 0 !important;
 }
  
 
