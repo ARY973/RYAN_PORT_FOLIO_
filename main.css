@@ -357,7 +357,7 @@ a:hover {
 
 /* FIX: Pull the entire Projects section upward */
 #projects {
-  margin-top: -3.5rem !important;
+  margin-top: -1.4rem !important;
   padding-top: 0 !important;
 }
 
