@@ -308,6 +308,12 @@ a:hover {
   max-height: 220px !important;
 }
 
+/* FIX — Prevent DC gallery photos from getting bigger */
+#dc-gallery .gallery-grid img {
+  height: 200px !important;   /* smaller fixed height */
+  max-height: 200px !important;
+  object-fit: cover !important;
+}
 
 
 
