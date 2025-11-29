@@ -319,13 +319,14 @@ a:hover {
   transform: scale(1.03);
 }
 
+#projects .project-grid {
+  margin-top: -1.2rem !important;  /* pulls cards + heading upward */
+  padding-top: 0 !important;
 }
-#projects.section {
-  padding-top: 1rem !important;
+
+#projects .section-header {
+  margin-bottom: 1.5rem !important; /* keeps spacing consistent */
 }
-#projects {
-  padding-top: 0.5rem !important;
-  margin-top: -1rem !important;
-}
+
 
 
