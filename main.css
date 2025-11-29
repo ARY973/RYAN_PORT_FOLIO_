@@ -286,8 +286,8 @@ a:hover {
 
   .hero {
     padding-left: 1.5rem;
-  } /* <-- this closes the media query */
-
+  }
+}  /* <-- correct closing brace for the media query */
 
 
 /* FULL RESET — Force DC Gallery back to grid */
@@ -305,6 +305,7 @@ a:hover {
   border-radius: 12px !important;
   display: block !important;
 }
+
 
 
 
