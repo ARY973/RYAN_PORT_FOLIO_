@@ -303,10 +303,12 @@ a:hover {
 }
 
 /* Heading spacing */
-#projects.section.projects-section .section-header {
-  margin-top: 0 !important;
-  margin-bottom: 1.2rem !important;
+#projects.section.projects-section {
+  margin-top: 1.2rem !important;
+  margin-bottom: 0rem !important;
 }
+ 
+
 
 
 
