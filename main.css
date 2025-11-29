@@ -350,6 +350,22 @@ a:hover {
 #projects .section-header {
   margin-bottom: 1rem !important;
 }
+/* FIX: Remove extra space below DC gallery */
+#dc-gallery {
+  padding-bottom: 1rem !important;
+}
+
+/* FIX: Pull the entire Projects section upward */
+#projects {
+  margin-top: -3.5rem !important;
+  padding-top: 0 !important;
+}
+
+/* Tighten heading spacing */
+#projects .section-header {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
 
 
 
