@@ -334,6 +334,22 @@ a:hover {
 #projects .project-grid {
   margin-top: -1.2rem !important;
 }
+/* Fix DC Gallery spacing */
+#dc-gallery {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+/* Fix the gap above the Projects section */
+#projects {
+  margin-top: -1rem !important;
+  padding-top: 0 !important;
+}
+
+/* Tighten project heading spacing */
+#projects .section-header {
+  margin-bottom: 1rem !important;
+}
 
 
 
