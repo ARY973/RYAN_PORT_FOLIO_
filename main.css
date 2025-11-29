@@ -320,5 +320,8 @@ a:hover {
 }
 
 }
+#projects.section {
+  padding-top: 1rem !important;
+}
 
 
