@@ -319,21 +319,22 @@ a:hover {
   transform: scale(1.03);
 }
 
-/* STRONG FIX — Pull entire Projects section upward */
+/* FORCE projects area upward */
 #projects {
-    padding-top: 1rem !important;
-    margin-top: -3rem !important;
+  margin-top: -3rem !important;
+  padding-top: 0 !important;
 }
 
-/* Pull the “Selected work” header upward */
-.projects-section .section-header {
-    margin-top: -1.2rem !important;
+/* Move the header upward */
+#projects .section-header {
+  margin-top: -1.5rem !important;
 }
 
-/* Align ML + FinTech cards upward */
-.projects-section .project-grid {
-    margin-top: -0.8rem !important;
+/* Move ML + FinTech cards upward */
+#projects .project-grid {
+  margin-top: -1.2rem !important;
 }
+
 
 
 
