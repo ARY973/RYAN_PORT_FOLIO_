@@ -323,5 +323,9 @@ a:hover {
 #projects.section {
   padding-top: 1rem !important;
 }
+#projects {
+  padding-top: 0.5rem !important;
+  margin-top: -1rem !important;
+}
 
 
